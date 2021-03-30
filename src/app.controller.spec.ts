@@ -2,6 +2,8 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 //testing not used
+//same stucture as jasmine angular tests   
+
 describe('AppController', () => {
   let appController: AppController;
 
