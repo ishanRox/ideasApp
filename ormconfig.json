@@ -3,9 +3,9 @@
     "host":"localhost",
     "port":"5432",
     "username":"postgres",
-    "password":"",
+    "password":"admin",
     "database":"ideas",
-    "synchronize":"true",
-    "logging":"true",
-    "entities":["./src/**/*.entity.ts","./dist/**/*.entity.js"]
+    "synchronize":true,
+    "logging":true,
+    "entities": ["dist/**/*.entity{.ts,.js}"]
 }
