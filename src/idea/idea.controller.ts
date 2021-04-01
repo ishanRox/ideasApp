@@ -19,6 +19,7 @@ export class IdeaController {
 
     @Get(':id')
     readIdea(@Param('id') id: string) {
+
         return this.ideaService.read(id);
     }
 
